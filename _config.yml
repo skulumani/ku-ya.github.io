@@ -107,26 +107,26 @@ author:
   youtube          :
 
 
-scholar:
-  style: assets/bibliography/ieee-with-url.csl
-  locale: en
- 
-  sort_by: year,month
-  order: descending
-  bibliography_list_tag: ul
- 
-  source: _bibliography
-  repository: pdf
-  bibliography: references
-  bibliography_template: bibliography
- 
-  replace_strings: true
- 
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
- 
-  query: "@*"
+# scholar:
+#   style: assets/bibliography/ieee-with-url.csl
+#   locale: en
+#
+#   sort_by: year,month
+#   order: descending
+#   bibliography_list_tag: ul
+#
+#   source: _bibliography
+#   repository: pdf
+#   bibliography: references
+#   bibliography_template: bibliography
+#
+#   replace_strings: true
+#
+#   details_dir:    bibliography
+#   details_layout: bibtex.html
+#   details_link:   Details
+#
+#   query: "@*"
 
 
 # Reading Files
@@ -204,7 +204,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-scholar
+  # - jekyll-scholar
 
 # mimic GitHub Pages with --safe
 whitelist:
